@@ -81,7 +81,7 @@ int main(){
       nnpass++;
     }
   }
-  cout<<"Total : "<<npass<<" Student"<<endl;
+  cout<<"Total : "<<nnpass<<" Student"<<endl;
 
 
   input.close();

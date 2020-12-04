@@ -28,8 +28,8 @@ int main(){
   for(int i=0;i<size;i++){
     cout<<student_name[i]<<" - "<<grade[i]<<endl;
   }
-
-  cout<<endl<<endl;
+ 
+ cout<<endl<<endl;
 
   int indexname;
   int min = grade[0];
@@ -40,7 +40,7 @@ int main(){
     }
   }
 
-  cout<<"The Person who got lowest score is "<<student_name[i]<<" which get score : "<<min<<endl;
+  cout<<"The Person who got lowest score is "<<student_name[indexname]<<" which get score : "<<min<<endl;
   
   int max = grade[0];
   for(i=0;i<size;i++){
@@ -49,12 +49,13 @@ int main(){
     }
   }
 
-   cout<<"The Person who got Highest score is "<<student_name[i]<<" which get score : "<<max<<endl;
+   cout<<"The Person who got Highest score is "<<student_name[indexname]<<" which get score : "<<max<<endl;
 
   int sum = 0;
 
   for(i=0;i<size;i++){
     sum += grade[i];
+
   }
 
   double average = sum/size;
@@ -80,7 +81,7 @@ int main(){
       nnpass++;
     }
   }
-  cout<<"Total : "<<nnpass<<" Student"<<endl;
+  cout<<"Total : "<<npass<<" Student"<<endl;
 
 
   input.close();

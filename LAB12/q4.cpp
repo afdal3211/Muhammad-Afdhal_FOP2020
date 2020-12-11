@@ -33,28 +33,6 @@ int main (){
     sortNumber[i] = grade[i];
   }
 
-  sort (sortNumber, sortNumber + size);
-
-  for (int i = 0 ; i < size; i++){
-    for (int j = 0; j < size - j; j++){
- if (sortNumber[i] == grade[j]){
-      cout << grade[j] << " " << student_name[j] << endl;
-    }
-    }
-   
-  }
-
-  cout<<endl<<endl;
-
-  sort(sortNumber, sortNumber + size, greater<int>());
-  for (int i = 0 ; i < size; i++){
-    for (int j = 0; j < size - j; j++){
- if (sortNumber[i] == grade[j]){
-      cout << grade[j] << " " << student_name[j] << endl;
-    }
-    }
-   
-  }
  
 
   input.close(); 

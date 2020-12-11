@@ -19,7 +19,7 @@ int main()
 	cout<<"4. Keluar"<<endl;
 	cout<<"====== Pilih Menu ======"<<endl;
 	cin>>pilihan;
-	system("cls");
+	system("clear");
 	
 	//switch case wheter the user wanna chechk the balance, deposit, or withdraw balance
 	switch ( pilihan ){
@@ -28,7 +28,7 @@ int main()
 			cout<<"Saldo anda Sebesar = "<<balance<<endl;
 			cout<<" lagIngin Check saldi ? ( Y = Check saldo / N = kembali ke menu ) : ";
 			cin>>status;} while ( status == 'Y' || status == 'y');
-			system("cls");
+			system("clear");
 			goto menu;
 		
 		
@@ -45,8 +45,8 @@ int main()
 				cout<<"Ingin Melakukan Deposit lagi ?"<<endl; 
 				cout<<"( Y = Melakukan deposit lagi / N = kembali ke menu ) : ";
 				cin>>status;
-				system("cls" ); } while ( status == 'Y' || status == 'y');
-				system("cls");
+				system("clear" ); } while ( status == 'Y' || status == 'y');
+				system("clear");
 				goto menu;
 		
 		case 3 :
@@ -67,13 +67,13 @@ int main()
 				cout<<"Ingin Melakukan Penarikan lagi ? "<<endl;
 				cout<<"( Y = Melakukan withdraw lagi / N = kembali ke menu ) : ";
 				cin>>status; system; } while ( status == 'Y' || status == 'y');
-				system("cls");
+				system("clear");
 				goto menu;
 	
 				
 		case 4 :
 			cout<<"Terima Kasih Telah Datang"<<endl;
-			system("cls");
+			system("clear");
 			return 0;
 		
 	}
